@@ -1,9 +1,0 @@
----
-- name: Ansible Playbook
-  hosts: all
-  become: true
-  tasks:
-    - name: Upgrade system packages
-      ansible.builtin.apt:
-        upgrade: true
-        update_cache: true
